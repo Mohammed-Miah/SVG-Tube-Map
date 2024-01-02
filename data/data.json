@@ -1,0 +1,16 @@
+[
+{"pathId": "lul-northern_940gzzluegw_940gzzlubtk", "Week":"1", "Category":"Category A", "InboundScore":10, "OutboundScore":100, "Operator":"lul-northern", "Stroke":"#FFFF00", "StationA":"Edgware", "StationB":"Collindale"},
+{"pathId": "lul-northern_940gzzlubtk_940gzzlucnd", "Week":"1", "Category":"Category A","InboundScore":20, "OutboundScore":100, "Operator":"lul-northern","Stroke":"#FFFF00", "StationA":"", "StationB":""},
+{"pathId": "lul-northern_940gzzluwfn_940gzzlufyc", "Week":"1", "Category":"Category B","InboundScore":30, "OutboundScore":100, "Operator":"lul-northern","Stroke":"#FFFF00", "StationA":"West Finchley", "StationB":"Finchley Central"},
+{"pathId": "lul-northern_940gzzluksh_940gzzluctn", "Week":"1", "Category":"Category C","InboundScore":40, "OutboundScore":100, "Operator":"lul-northern","Stroke":"#FFFF00", "StationA":"Kentish Town", "StationB":"Camden Town"},
+{"pathId": "lul-northern_940gzzluksx_940gzzluagl", "Week":"2", "Category":"Category A","InboundScore":50, "OutboundScore":100, "Operator":"lul-northern", "Stroke":"#FFFF00", "StationA":"King's Cross & St Pancras", "StationB":"Angel"},
+{"pathId": "lul-northern_940gzzlulnb_940gzzlubor", "Week":"1", "Category":"Category A","InboundScore":60, "OutboundScore":100, "Operator":"lul-northern", "Stroke":"#FFFF00", "StationA":"London Bridge", "StationB":"Borough"},
+{"pathId": "lul-northern_940gzzlugdg_940gzzlutcr", "Week":"1", "Category":"Category B","InboundScore":70, "OutboundScore":100, "Operator":"lul-northern", "Stroke":"#FFFF00", "StationA":"Goodge Street", "StationB":"Tottenham Court Road"},
+{"pathId": "lul-northern_940gzzluchx_940gzzluemb", "Week":"1", "Category":"Category A","InboundScore":80, "OutboundScore":100, "Operator":"lul-northern", "Stroke":"#FFFF00", "StationA":"Charing Cross", "StationB":"Embankment"},
+{"pathId": "lul-jubilee_940gzzlucgt_940gzzluwhm", "Week":"1", "Category":"Category A","InboundScore":50, "OutboundScore":100, "Operator":"lul-Jubilee", "Stroke":"#FFFF00", "StationA":"Canning Town", "StationB":"West Ham"},
+{"pathId": "lul-jubilee_940gzzlubnd_940gzzlugpk", "Week":"2", "Category":"Category C","InboundScore":60, "OutboundScore":100, "Operator":"lul-Jubilee", "Stroke":"#FFFF00", "StationA":"Bond Street", "StationB":"Green Park"},
+{"pathId": "lul-jubilee_940gzzluqby_940gzzlukby", "Week":"1", "Category":"Category A","InboundScore":70, "OutboundScore":100, "Operator":"lul-Jubilee", "Stroke":"#FFFF00", "StationA":"Queensbury", "StationB":"Kingsbury"},
+{"pathId": "lul-piccadilly_940gzzlucar_940gzzluhwy", "Week":"1", "Category":"Category B","InboundScore":80, "OutboundScore":100, "Operator":"lul-piccadilly", "Stroke":"#FFFF00", "StationA":"Caledonian Road", "StationB":"Holloway Road"},
+{"pathId": "lul-piccadilly_940gzzlutng_940gzzluhsd", "Week":"1", "Category":"Category B","InboundScore":90, "OutboundScore":100, "Operator":"lul-piccadilly", "Stroke":"#FFFF00", "StationA":"Turnham Green", "StationB":"Hammersmith"}
+
+]

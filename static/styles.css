@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #112540;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+footer {
+    background-color: #112540;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#filters {
+    background-color: #eee;
+    padding: 10px;
+}
+#svg_container
+{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+
+    
+    box-sizing: border-box;
+    margin: 10px 0; /* Add margin between columns */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+
+}
+#map {
+    width: 100%;
+    height: 300px;
+    background-color: #f0f0f0;
+    
+}
+
+.row {
+    width: 90%;
+    max-width: 1200px; /* Set a max-width for better readability on larger screens */
+    margin: 0 auto; /* Center the content within the page */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    justify-content: space-around; /* Distribute columns evenly */
+}
+
+.column {
+    width: 100%; /* Take up full width on small screens, adjust as needed */
+    box-sizing: border-box;
+    margin: 10px 0; /* Add margin between columns */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+#tooltip {
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    border: 3px dashed gray;
+    display: none;
+}
+
+.white-fill
+{
+    visibility: none;
+}
+.blue-fill
+{
+    visibility: none;
+    
+}
+#lul-central
+{
+    stroke: #EE3124 !important;
+    visibility: none;
+    /*fill: #000000 !important;*/
+}
+#station-names
+{
+    visibility: none;
+    font-size: 5px;
+
+}
+#tram-tram
+{
+    visibility: none;
+    stroke: #7AC143;
+    stroke-width: 2.3737;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+
+#raillo-overground
+{
+    visibility: none;
+    stroke: #F58025;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+
+#dlr-dlr
+{
+    visibility: none;
+    stroke: #00B1B0;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#elizabeth
+{
+    visibility: none;
+    stroke: #634EA0;
+}
+
+#lul-waterloo-city
+{
+    visibility: none;
+    stroke: #86CEBC;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#lul-bakerloo
+{
+    visibility: none;
+    stroke: #B06010;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#lul-jubilee
+{
+    visibility: none;
+    stroke: #949CA1;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#lul-victoria
+{
+    visibility: none;
+    stroke: #009DDC;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#lul-northern
+{
+    visibility: none;
+    stroke: #000000;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#lul-piccadilly
+{
+    visibility: none;
+    stroke: #1C3F94;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#lul-central
+{
+    visibility: none;
+    stroke: #EE3124;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+
+#lul-hammersmith-city
+{
+    visibility: none;
+    stroke: #F386A1;
+    stroke-width: 2.2709;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#lul-circle
+{
+    visibility: none;
+    stroke: #FFD200;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#lul-district
+{
+    visibility: none;
+    stroke: #00853F;
+    stroke-width: 2.2709;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#lul-metropolitan
+{
+    visibility: none;
+    stroke: #97005E;
+    stroke-width: 2.2707;
+    stroke-linejoin: "round";
+    stroke-miterlimit: 3.9938;
+}
+#interchange-circles #Key_to_lines #OSIs #cab-air-line
+{
+    visibility: none;
+
+}
+#OSIs{
+
+    opacity: 0.2;
+}
+.button-container {
+    /*position: absolute;
+    top: 10px; /* Adjust the top position as needed 
+    left: 50%;
+    transform: translateX(-50%);*/
+    z-index: 1; /* Ensure the buttons appear above the SVG */
+    background-color: gray;
+    border:gray dashed 1px;
+    text-align: center;
+}
+
+button{
+
+    z-index: 1;
+}
